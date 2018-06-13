@@ -1,0 +1,16 @@
+{
+  "name": "derekreese",
+  "version": "1.0.0",
+  "description": "The source code for https://derekree.se",
+  "main": "index.js",
+  "repository": "https://github.com/cybtachyon/derekreese",
+  "author": "Derek Reese",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.10.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
